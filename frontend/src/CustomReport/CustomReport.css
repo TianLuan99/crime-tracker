@@ -1,0 +1,76 @@
+h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #3b5998;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 -15px;
+}
+
+.chart {
+  flex: 1;
+  min-width: 300px;
+  padding: 0 15px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.report-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin: 0 15px;
+  text-align: center;
+}
+
+.date-input {
+  margin-left: 10px;
+}
+
+.submit-button {
+  background-color: #4267b2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #385898;
+}

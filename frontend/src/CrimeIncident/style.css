@@ -1,0 +1,58 @@
+.crime-incident {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #ccc;
+  margin-bottom: 20px;
+}
+
+.crime-incident .id {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.crime-incident .location {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.crime-incident .date,
+.crime-incident .time,
+.crime-incident .status {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.crime-incident .actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.crime-incident .actions button {
+  background-color: #4267b2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.crime-incident .actions button:hover {
+  background-color: #0062cc;
+}
+
+.crime-incident hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 0;
+}

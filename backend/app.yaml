@@ -1,0 +1,14 @@
+runtime: python38
+service: crime-tracker-backend
+
+instance_class: F1
+
+env_variables:
+  MYSQL_USER: crimetracker-user
+  MYSQL_PASSWORD: crimetracker123
+  MYSQL_DB: crime_tracker_db
+  MYSQL_HOST: 34.173.49.28
+
+entrypoint: uwsgi --http :$PORT --wsgi-file main.py --callable app
+
+

@@ -1,0 +1,98 @@
+.crime-tracker-container {
+  margin: 20px;
+}
+
+h1 {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  color: #3b5998;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+.crime-tracker-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.crime-tracker-auth {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.crime-tracker-auth-link {
+  color: #4267b2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.crime-tracker-auth-link:hover {
+  text-decoration: underline;
+}
+
+.crime-tracker-section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.crime-tracker-search {
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.crime-tracker-report {
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.crime-tracker-button {
+  background-color: #4267b2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.crime-tracker-button:hover {
+  background-color: #385898;
+}
+
+.crime-tracker-list {
+  background-color: #f0f2f5;
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.crime-tracker-map {
+  height: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.crime-tracker-map > div {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.crime-tracker-map:after {
+  content: "";
+  display: block;
+  padding-top: 75%;
+}
